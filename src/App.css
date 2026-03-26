@@ -1,0 +1,129 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(to bottom, var(--cor-azul02), var(--cor-azul01));
+  padding: 0px 0px 60px 0px;
+}
+
+.container .container-header {
+  background: url('./assets/escola-fundo.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.container .container-header .container-header-imagem {
+  max-width: 230px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 10px 0px var(--cor-azul03);
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%)
+}
+
+.container .container-header .container-header-imagem .container-header-imagem-item {
+  width: 100%;
+  height: 100%;
+}
+
+.container .container-main {
+  width: 100%;
+  height: auto;
+  padding: 115px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 0px;
+}
+
+.container .container-main  .container-main-box {
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px 0px;
+}
+ 
+.container .container-main .container-main-box  .container-main-box-nome{
+  width: 95%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--cor-branco);
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.container .container-main .container-main-box .container-main-box-cargo{
+  width: 95%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: var(--cor-branco);
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container .container-main .container-main-link {
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px 0px;
+}
+
+@media (max-width: 550px) {
+  .container .container-header .container-header-imagem {
+    max-width: 200px;
+  }
+
+  .container .container-main  {
+    padding: 80px 0px 0px 0px;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .container .container-header .container-header-imagem {
+    max-width: 180px;
+  }
+
+  .container .container-main  {
+    padding: 60px 0px 0px 0px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .container .container-main .container-main-box  .container-main-box-nome{
+    font-size: 1.3rem;
+  }
+
+  .container .container-main .container-main-box .container-main-box-cargo{
+    font-size: 0.9rem;
+  }
+}
+
+
