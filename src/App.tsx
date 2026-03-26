@@ -15,7 +15,7 @@ function App() {
 
         <main className='container-main'>
           <article className="container-main-box">
-            <p className='container-main-box-nome'>Anderson Vieira</p>
+            <p className='container-main-box-nome'>Anderson Vieira de Paula</p>
             <p className='container-main-box-cargo'>Gestor de Relacionamento Institucional</p>
           </article>
 
